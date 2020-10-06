@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <!--  scripts from Bootstrap CDN required for hamburger button on navbar to work on small screens -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Ed Sivick - Web Developer</title>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <span class="navbar-brand mb-1 h1">Edward Sivick</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="webDev.html">Web Developer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mechEng.html">Mechanical Engineer</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- main Container -->
+    <main class="container">
+        <!-- main Grid: Row 1 -->
+        <div class="row">
+            <!-- main Grid: Row 1, Col 1 -->
+            <div class="col-md-12">
+                <!-- Header -->
+                <header class="head_info">
+                    <h1>Web Developer Portfolio</h1>
+                    <hr>
+                </header>
+            </div>
+        </div>
+        <!-- main Grid: Row 2 -->
+        <div class="row">
+            <!-- main Grid: Row 2, Col 1 -->
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <img src="assets/images/seoul.png"
+                    alt="city and country information including weather forecast for Seoul, South Korea"
+                    class="img-thumbnail img-btm img-ctr">
+                <p class="about"> <strong>Project Title: </strong>Worldwide Travel Assistant<br>
+                    <strong>Application Link:</strong> <a
+                        href="https://ed-sivick.github.io/world-wide-travel-assistant/index.html">Worldwide Travel
+                        Assistant Link</a>
+                    <br>
+                    <strong>GitHub Repository:</strong> <a
+                        href="https://github.com/ed-sivick/world-wide-travel-assistant">GitHub Link</a>
+                    <br>
+                    <strong>Project Description:</strong><br>
+                    Business and leisure travel to many states or countries can be difficult if you are not equipped
+                    with the proper attire, or knowledge of specific holidays in that area. The ability to view this
+                    information before visiting the region can save the traveler time and effort through pre-planning.
+                    The travel input criteria including: visiting city, start travel date, and end travel date will
+                    initialize a server-side API from <a href="https://calendarific.com/">Calendarific</a>, providing
+                    them with holiday information as well as useful facts about their destination. Information
+                    pertaining
+                    to the destination country is supplied to the app by means of an API from
+                    <a href="https://restcountries.eu/#rest-countries">Rest Countries</a>. The traveler can also utilize
+                    the weather information for that destination, and select the proper clothing or make appropriate
+                    plans
+                    to adjust for it. The input data is used to initiate another server-side API from
+                    <a href="https://openweathermap.org/">OpenWeather</a> to provide the weather information. The date
+                    information is displayed using <a href="https://momentjs.com/">Moment.js</a>.
+                </p>
+            </div>
+            <!-- main Grid: Row 2, Col 2 -->
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <img src="assets/images/passwordgen.png" alt="image of generated password"
+                    class="img-thumbnail img-btm img-ctr">
+                <p class="about"> <strong>Project Title: </strong>Password Generator<br>
+                    <strong>Application Link:</strong> <a
+                        href="https://ed-sivick.github.io/3-password_generator/index.html">Password Generator Link</a>
+                    <br>
+                    <strong>GitHub Repository:</strong> <a
+                        href="https://github.com/ed-sivick/3-password_generator">GitHub Link</a>
+                    <br>
+                    <strong>Project Description:</strong><br>
+                    This is an application that generates a random password based on user-selected criteria. The
+                    application runs in the browser and features dynamically updated HTML and CSS powered by
+                    JavaScript code. It also features a clean and polished user interface and is responsive,
+                    ensuring that it adapts to multiple screen sizes.<br>
+                    The user clicks the <strong>Generate Password</strong> button to generate a password.
+                    The password criteria are:<br>
+                    - The length of the password must be between 8 and 128 characters.<br>
+                    - The user must select at least 1 of the 4 groups of characters listed below:<br>
+                    - lower case letters<br>
+                    - upper case letters<br>
+                    - numeric characters<br>
+                    - <a href="https://www.owasp.org/index.php/Password_special_characters">password special
+                        characters</a><br>
+                    A password is then generated that matches the selected criteria options. The password is displayed
+                    in an alert window and written to the web page.
+                </p>
+            </div>
+        </div>
+        <!-- main Grid: Row 3 -->
+        <div class="row">
+            <!-- main Grid: Row 3, Col 1 -->
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <img src="assets/images/quiz.png" alt="image of javascript quiz" class="img-thumbnail img-btm img-ctr">
+                <p class="about"> <strong>Project Title: </strong>Timed Code Quiz<br>
+                    <strong>Application Link:</strong> <a href="https://ed-sivick.github.io/4-Web-APIs/">Timed Code Quiz
+                        Link</a>
+                    <br>
+                    <strong>GitHub Repository:</strong> <a href="https://github.com/ed-sivick/4-Web-APIs">GitHub
+                        Link</a>
+                    <br>
+                    <strong>Project Description:</strong><br>
+                    This is an application that introduces a timed code quiz with multiple-choice questions. The app
+                    will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code. It
+                    also features a clean and polished user interface and is responsive, ensuring that it adapts to
+                    multiple screen sizes. When the user clicks a start button, a timer will start and the user is
+                    presented with a question. When the question is answered, another question is presented. If the
+                    question is answered incorrectly, additional time is subtracted from the timer. The game is over
+                    when all questions are answered or the timer reaches 0. The user can then save their initials and
+                    quiz score.
+                </p>
+            </div>
+            <!-- main Grid: Row 3, Col 2 -->
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <img src="assets/images/scheduler.png" alt="image of work day schedule"
+                    class="img-thumbnail img-btm img-ctr">
+                <p class="about"> <strong>Project Title: </strong>Work Day Scheduler<br>
+                    <strong>Application Link:</strong> <a href="https://ed-sivick.github.io/5-Work_Day_Scheduler/">Work
+                        Day Scheduler Link</a>
+                    <br>
+                    <strong>GitHub Repository:</strong> <a
+                        href="https://github.com/ed-sivick/5-Work_Day_Scheduler">GitHub Link</a>
+                    <br>
+                    <strong>Project Description:</strong><br>
+                    This is an application that creates a daily planner to manage time effectively by posting hourly
+                    events and/or tasks into assigned timeblocks. The current day is displayed at the top of the
+                    calendar. Timeblocks in the form of rows are assigned for standard business hours (9AM to 5PM).
+                    When viewing timeblocks for the current day, each block is color coded to indicate whether that
+                    specific block is in the past, present, or future. When the user clicks on a timeblock, they are
+                    able to enter an event or task associated with that time period. They can save the information by
+                    pressing the corresponding save button for that timeblock. The information is then saved into
+                    local storage.
+                </p>
+            </div>
+        </div>
+        <div class="btm-margin">
+            <!-- main Grid: Row 4 -->
+            <div class="row">
+                <!-- main Grid: Row 4, Col 1 -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="assets/images/weather.png"
+                        alt="image of weather dashboard showing current and five day forecast for weather in Miami, Florida"
+                        class="img-thumbnail img-btm img-ctr">
+                    <p class="about"> <strong>Project Title: </strong>Weather Dashboard<br>
+                        <strong>Application Link:</strong> <a
+                            href="https://ed-sivick.github.io/6-weather_dashboard/">Weather Dashboard Link</a>
+                        <br>
+                        <strong>GitHub Repository:</strong> <a
+                            href="https://github.com/ed-sivick/6-weather_dashboard">GitHub Link</a>
+                        <br>
+                        <strong>Project Description:</strong><br>
+                        This is an application that creates a weather dashboard using weather data from
+                        <a href="https://openweathermap.org/">OpenWeather</a> to view current and future
+                        weather for a city. The user is able to input a city and view its relative weather data.
+                        The city name, date, and weather icon representing the weather on the current date will appear.
+                        The temperature, humidity, wind speed, and UV index will also appear below the city name and
+                        date. The UV index will be color coded to identify the severity: favorable (green),
+                        moderate (yellow), or severe (orange-red-violet). The future weather will be displayed as a
+                        5-day forecast displaying the date; a weather icon representing the weather on that date;
+                        the temperature, and the humidity. The user will be able to click on a city stored in the search
+                        history, and again view its current and future weather. When re-opening the app, it will display
+                        the current and future weather for the last city that was searched. If there were no cities
+                        searched, it will display the weather for New York, New York.
+                    </p>
+                </div>
+                <!-- main Grid: Row 4, Col 2 empty -->
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- sticky footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                Author: Ed Sivick - &copy; Copyright 2020
+            </p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
